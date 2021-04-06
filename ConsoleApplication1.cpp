@@ -1,11 +1,10 @@
 ﻿#include <iostream>
-#include <bitset>
 using namespace std;
 int main() {
-	cout << "Mutqagreq drakan tiv " << endl;
-	unsigned int z = 0;
-	cin >> z;
-	bitset<8> inputbits(z);
-	cout <<z<<  " Bitayin hamakargum = " << inputbits << endl;
+	int num_1 = 0, num_2 = 0, num_3 = 0;
+	cin >> num_1;
+	cin>>num_2;
+	num_3 = num_1 + num_2;
+	cout << num_1 << '+' << num_2 << '=' << num_3;
 	return 0;
 }
